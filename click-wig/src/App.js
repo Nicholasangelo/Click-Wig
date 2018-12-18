@@ -1,3 +1,5 @@
+// DONT TOUCH FOR NOW
+
 import React from 'react';
 import './App.css';
 import ClickGame from "./components/ClickGame";
