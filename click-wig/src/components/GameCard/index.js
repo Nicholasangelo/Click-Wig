@@ -7,7 +7,7 @@ function GameCard(props) {
         <div 
         role="img"
         aria-label="click item"
-        onclick={() => props.handlesClick(props.id)}
+        onClick={() => props.handleItemClick(props.id)}
         style={{ backgroundImage: `url('${props.image}')` }}
         className={`click-item${props.flip ? " flip " : ""}`}
         />

@@ -1,0 +1,11 @@
+.click-item {
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    display: inline-flex;
+    margin: 10px 10px 10px 10px;
+    box-shadow: 1px 1px 13px darkslategrey;
+}
+.click-item:hover {
+    cursor: pointer;
+}

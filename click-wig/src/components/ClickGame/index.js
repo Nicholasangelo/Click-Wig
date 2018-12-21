@@ -8,6 +8,8 @@ import React, { Component } from "react";
 import Container from "../Container";
 import Header from "../Header";
 import data from "../../data.json";
+import GameCard from "../GameCard";
+// import Footer from "../Footer";
 
 
 class ClickGame extends Component {
@@ -39,6 +41,7 @@ class ClickGame extends Component {
             data:this.resetData(data),
             score: 0
         });
+        alert("sorry, already picked that handsome devil, back to Zero")
     };
 
     resetData = data => {
@@ -58,7 +61,7 @@ class ClickGame extends Component {
         return data;
     };
 
-    handleItemClick = id => {
+    handleItemClick = (id) => {
         let correct = false;
         const newData = this.state.data.map(item => {
             const newItem = { ...item };
@@ -78,9 +81,24 @@ class ClickGame extends Component {
     render() {
         return (
             <div>
-                 <Container />
-                <Header />
-               
+                <Header 
+                 score={this.state.score}
+                 topScore={this.state.topScore}
+                 />
+
+                 <Container>
+                 {this.state.data.map(nickyImg => (
+                     <GameCard
+                     handleItemClick={this.handleItemClick}
+                     id={nickyImg.id}
+                     key={nickyImg.id}
+                     image={nickyImg.image}
+                     clicked={nickyImg.clicked}
+                 />
+                 ))}
+                  
+                </Container>
+                {/* <Footer /> */}
             </div>
         )
     };

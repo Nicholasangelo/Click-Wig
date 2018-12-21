@@ -1,5 +1,6 @@
 .container {
     margin: 0 auto;
     justify-content: center;
-    background-color: chartreuse
+    background-color: chartreuse;
+    text-align: center;
 }
