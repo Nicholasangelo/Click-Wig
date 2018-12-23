@@ -8,4 +8,6 @@
 }
 .click-item:hover {
     cursor: pointer;
+    border-radius: 50%;
+    box-shadow: 12px 23px 37px darkslategrey;
 }
