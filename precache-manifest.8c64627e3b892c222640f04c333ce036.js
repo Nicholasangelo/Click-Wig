@@ -4,19 +4,19 @@ self.__precacheManifest = [
     "url": "/click-wig/static/js/runtime~main.d31f08a2.js"
   },
   {
-    "revision": "d9fa9070632e1c7855a6",
-    "url": "/click-wig/static/js/main.d9fa9070.chunk.js"
+    "revision": "ae30ef9d12635297b2ba",
+    "url": "/click-wig/static/js/main.ae30ef9d.chunk.js"
   },
   {
     "revision": "46b1084bfdcac49c9b0e",
     "url": "/click-wig/static/js/1.46b1084b.chunk.js"
   },
   {
-    "revision": "d9fa9070632e1c7855a6",
-    "url": "/click-wig/static/css/main.8166a07b.chunk.css"
+    "revision": "ae30ef9d12635297b2ba",
+    "url": "/click-wig/static/css/main.211a922c.chunk.css"
   },
   {
-    "revision": "b626dc86069e1ac78060e6025144121a",
+    "revision": "259e351af4748c62283f6490ba692468",
     "url": "/click-wig/index.html"
   }
 ];
